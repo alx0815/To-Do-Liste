@@ -2,34 +2,17 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Über mich</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meine To-Do Liste</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Moin, ich bin Alex!</h1>
-    <p>Web-App Anfänger und Technik-Fan</p>
-  </header>
-
-  <main>
-    <section>
-      <h2>Über mich</h2>
-      <p>Ich interessiere mich für Webentwicklung und baue aktuell meine erste eigene Web-App.</p>
-    </section>
-
-    <section>
-      <h2>Kontakt</h2>
-      <ul>
-        <li>Email: alex@example.com</li>
-        <li>GitHub: <a href="https://github.com/alx0815/" target="_blank">deinprofil</a></li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Alex G.</p>
-  </footer>
+  <div class="container">
+    <h1>📝 Meine To-Do Liste</h1>
+    <input type="text" id="todo-input" placeholder="Neue Aufgabe..." />
+    <button id="add-button">Hinzufügen</button>
+    <ul id="todo-list"></ul>
+  </div>
 
   <script src="script.js"></script>
 </body>
